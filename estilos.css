@@ -191,4 +191,11 @@ form input:focus{
   border: none;
   background: linear-gradient(to right, #314755, #26a0da);
   color: rgb(205, 228, 255);
+  margin-top: 15px;
+  transition: all 1s;
+}
+
+.contform button:hover{
+  transform: translate(0px,-5px);
+font-size: 1.7em;
 }
