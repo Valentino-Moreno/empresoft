@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif;
+}
+header {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  padding: 25px;
+  justify-content: space-between;
+}
+header h2 {
+  color: antiquewhite;
+}
+
+header a {
+  color: antiquewhite;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 15px;
+}
+
+header a:hover {
+  color: rgb(4, 133, 255);
+}
+
+#inicio {
+  height: 600px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)),
+    url(img/pexels-pixabay-247791.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#inicio .text {
+  color: whitesmoke;
+  text-align: center;
+  padding-bottom: 80px;
+}
+#inicio h1 {
+  font-size: 2.5em;
+  text-transform: uppercase;
+  padding-bottom: 15px;
+}
+#inicio h2 {
+  font-size: 2em;
+  text-transform: uppercase;
+}
+img {
+  height: 200px;
+}
+
+/* ESTILOS PROYECTOS */
+
+#proyectos {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    87deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(43, 43, 52, 0.9528186274509804) 100%
+  );
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 50px;
+  font-size: 2em;
+}
+.todosProyectos {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.proyecto {
+  background-color: #1b1919c7;
+  max-width: 25%;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  -webkit-box-shadow: 11px -1px 39px 19px rgba(0, 0, 0, 0.69);
+  box-shadow: 11px -1px 39px 19px rgba(0, 0, 0, 0.69);
+}
+
+.proyecto h3 {
+  font-size: 1em;
+  margin: 10px;
+  text-transform: uppercase;
+}
+
+.proyecto p {
+  font-size: 0.6em;
+  text-align: left;
+  margin: 10px;
+}
+
+footer {
+  background-color: rgba(2, 2, 2, 0.897);
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+
+.media {
+  color: black;
+  display: flex;
+  justify-content: end;
+}
+.media p {
+  font-size: 2em;
+  padding: 10px;
+}
+
+/* ESTILOS CONTACTO */
+
+.contacto {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(img/pexels-nataliya-vaitkevich-5554701.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
+  text-align: center;
+}
+
+.contacto h2 {
+  font-size: 2.5em;
+  padding-right: 40px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+}
+.contform h2 {
+  padding-left: 25px;
+}
+
+form input {
+  font-size: 1.4em;
+  margin: 10px;
+  padding: 10px;
+  border: solid rgb(104, 56, 238) 2px;
+  border-radius: 10px;
+  background-color: #2f3e46f6;
+}
+
+.contform {
+  background-color: #2f3e46f6;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 10px 4px 24px 2px rgba(255,255,255,0.39);
+}
+
+.contform button {
+  font-size: 1.5em;
+  width: 200px;
+  padding: 5px 10px 5px 10px;
+  margin: 2px;
+  border-radius: 10px;
+  border: none;
+  background: linear-gradient(to right, #314755, #26a0da);
+  color: rgb(205, 228, 255);
+}
