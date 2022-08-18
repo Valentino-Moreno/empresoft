@@ -5,7 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="estilos.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <link
       href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
       rel="stylesheet"
@@ -23,7 +28,7 @@
     </header>
 
     <section id="inicio">
-      <div class="text">
+      <div data-aos="zoom-in-up" data-aos-duration="1500" class="text">
         <h1>tusoft</h1>
         <h2>generando un cambio en el mundo it, cambiando vidas</h2>
       </div>
@@ -31,8 +36,8 @@
 
     <section id="proyectos">
       <h2>Nuestros Proyectos</h2>
-      <div class="todosProyectos fade-up">
-        <div data-aos="fade-right" class="proyecto">
+      <div data-aos="fade-right" data-aos-duration="1500" class="todosProyectos ">
+        <div class="proyecto">
           <h3>Sistema de facturacion</h3>
           <img src="img/pexels-tima-miroshnichenko-5380642.jpg" alt="" />
           <p>
@@ -41,7 +46,7 @@
             veniam dignissimos
           </p>
         </div>
-        <div data-aos="fade-right" class="proyecto">
+        <div class="proyecto">
           <h3>Sistema de facturacion</h3>
           <img src="img/pexels-tima-miroshnichenko-5380642.jpg" alt="" />
           <p>
@@ -75,6 +80,10 @@
         </p>
       </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
     <script src="https://code.iconify.design/iconify-icon/1.0.0-beta.3/iconify-icon.min.js"></script>
   </body>
 </html>
